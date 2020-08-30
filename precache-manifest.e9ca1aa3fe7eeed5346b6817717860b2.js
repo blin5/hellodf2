@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26217fd505db5e42ed63e564ac28efef",
+    "revision": "6e0733b14dfcee32534805d379b38416",
     "url": "/hellodf2/index.html"
   },
   {
-    "revision": "c72114ec54b0e09927ec",
+    "revision": "85a3536c1ca92dc478c3",
     "url": "/hellodf2/static/css/2.59df65bd.chunk.css"
   },
   {
-    "revision": "205fbd10273909486f64",
+    "revision": "a6291e4b20a9ebed36bb",
     "url": "/hellodf2/static/css/main.51f320f6.chunk.css"
   },
   {
-    "revision": "c72114ec54b0e09927ec",
-    "url": "/hellodf2/static/js/2.191f93f1.chunk.js"
+    "revision": "85a3536c1ca92dc478c3",
+    "url": "/hellodf2/static/js/2.067d378f.chunk.js"
   },
   {
     "revision": "5af347742f42e9ec31fd232ea0d01565",
-    "url": "/hellodf2/static/js/2.191f93f1.chunk.js.LICENSE.txt"
+    "url": "/hellodf2/static/js/2.067d378f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "205fbd10273909486f64",
-    "url": "/hellodf2/static/js/main.459acf4f.chunk.js"
+    "revision": "a6291e4b20a9ebed36bb",
+    "url": "/hellodf2/static/js/main.bb04fe52.chunk.js"
   },
   {
     "revision": "494de256463b906e27c2",
