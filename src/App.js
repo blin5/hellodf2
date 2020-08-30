@@ -26,6 +26,7 @@ const WebcamCapture = () => {
         audio={false}
         ref={webcamRef}
         screenshotFormat="image/jpeg"
+        mirrored="false"
       />
       <Button label="Capture photo" onClick={capture}/>
       <h1><FileUpload mode="basic" name="demo[]" url="./upload.php" accept="image/*" maxFileSize={1000000}  /></h1>
