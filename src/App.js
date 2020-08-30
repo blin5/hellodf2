@@ -3,6 +3,7 @@ import tonyImage from './img/tonyPic.jpg';
 import backgroundVideo from './video_back/background.mp4';
 import { FileUpload } from 'primereact/fileupload';
 import { Card } from 'primereact/card';
+import { Button } from 'primereact/button';
 import './App.css';
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
@@ -26,12 +27,14 @@ const WebcamCapture = () => {
         ref={webcamRef}
         screenshotFormat="image/jpeg"
       />
-      <button onClick={capture}>Capture photo</button>
+      <Button label="Capture photo" onClick={capture}/>
+      <h1><FileUpload mode="basic" name="demo[]" url="./upload.php" accept="image/*" maxFileSize={1000000}  /></h1>
       {imgSrc && (
         <img
           src={imgSrc}
         />
       )}
+      
     </>
   );
 };
@@ -58,13 +61,10 @@ function App() {
       </video>
       <img src={tonyImage} alt="tony-effe" />
 
-      <h1><Webcam /></h1>
+      <h1><WebcamCapture /></h1>
 
       <div className="Card">
-      <Card title="Upload face" style={{width: '30em'}} >
-        <FileUpload name="demo[]" url="./upload.php" onUpload={onUpload} accept="image/*" maxFileSize={1000000}
-                        emptyTemplate={<p className="p-m-0">Drag and drop files to here to upload.</p>} />
-      </Card>
+      
       </div>
     </div>
   );
