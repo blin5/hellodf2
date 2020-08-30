@@ -9,7 +9,32 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import Webcam from "react-webcam";
 
-const WebcamComponent = () => <Webcam />;
+//const WebcamComponent = () => <Webcam />;
+const WebcamCapture = () => {
+  const webcamRef = React.useRef(null);
+  const [imgSrc, setImgSrc] = React.useState(null);
+
+  const capture = React.useCallback(() => {
+    const imageSrc = webcamRef.current.getScreenshot();
+    setImgSrc(imageSrc);
+  }, [webcamRef, setImgSrc]);
+
+  return (
+    <>
+      <Webcam
+        audio={false}
+        ref={webcamRef}
+        screenshotFormat="image/jpeg"
+      />
+      <button onClick={capture}>Capture photo</button>
+      {imgSrc && (
+        <img
+          src={imgSrc}
+        />
+      )}
+    </>
+  );
+};
 
 function App() {
   return (
@@ -32,6 +57,8 @@ function App() {
         <source src={backgroundVideo} type="video/mp4" />
       </video>
       <img src={tonyImage} alt="tony-effe" />
+
+      <h1><Webcam /></h1>
 
       <div className="Card">
       <Card title="Upload face" style={{width: '30em'}} >
