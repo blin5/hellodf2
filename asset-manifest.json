@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/hellodf2/static/css/main.7928b2f3.chunk.css",
+    "main.js": "/hellodf2/static/js/main.93070971.chunk.js",
+    "main.js.map": "/hellodf2/static/js/main.93070971.chunk.js.map",
+    "runtime-main.js": "/hellodf2/static/js/runtime-main.7ebfb35a.js",
+    "runtime-main.js.map": "/hellodf2/static/js/runtime-main.7ebfb35a.js.map",
+    "static/js/2.a7ab4590.chunk.js": "/hellodf2/static/js/2.a7ab4590.chunk.js",
+    "static/js/2.a7ab4590.chunk.js.map": "/hellodf2/static/js/2.a7ab4590.chunk.js.map",
+    "index.html": "/hellodf2/index.html",
+    "precache-manifest.17f5a4239c648247c332b4c2127a91ca.js": "/hellodf2/precache-manifest.17f5a4239c648247c332b4c2127a91ca.js",
+    "service-worker.js": "/hellodf2/service-worker.js",
+    "static/css/main.7928b2f3.chunk.css.map": "/hellodf2/static/css/main.7928b2f3.chunk.css.map",
+    "static/js/2.a7ab4590.chunk.js.LICENSE.txt": "/hellodf2/static/js/2.a7ab4590.chunk.js.LICENSE.txt",
+    "static/media/tonyPic.jpg": "/hellodf2/static/media/tonyPic.c6fc34ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7ebfb35a.js",
+    "static/js/2.a7ab4590.chunk.js",
+    "static/css/main.7928b2f3.chunk.css",
+    "static/js/main.93070971.chunk.js"
+  ]
+}
