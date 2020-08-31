@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/hellodf2/static/css/main.e2fc9554.chunk.css",
-    "main.js": "/hellodf2/static/js/main.2539c792.chunk.js",
-    "main.js.map": "/hellodf2/static/js/main.2539c792.chunk.js.map",
+    "main.css": "/hellodf2/static/css/main.f92d654f.chunk.css",
+    "main.js": "/hellodf2/static/js/main.83a06902.chunk.js",
+    "main.js.map": "/hellodf2/static/js/main.83a06902.chunk.js.map",
     "runtime-main.js": "/hellodf2/static/js/runtime-main.7ebfb35a.js",
     "runtime-main.js.map": "/hellodf2/static/js/runtime-main.7ebfb35a.js.map",
     "static/css/2.59df65bd.chunk.css": "/hellodf2/static/css/2.59df65bd.chunk.css",
-    "static/js/2.fb7bc9c2.chunk.js": "/hellodf2/static/js/2.fb7bc9c2.chunk.js",
-    "static/js/2.fb7bc9c2.chunk.js.map": "/hellodf2/static/js/2.fb7bc9c2.chunk.js.map",
+    "static/js/2.3bd9d40f.chunk.js": "/hellodf2/static/js/2.3bd9d40f.chunk.js",
+    "static/js/2.3bd9d40f.chunk.js.map": "/hellodf2/static/js/2.3bd9d40f.chunk.js.map",
     "index.html": "/hellodf2/index.html",
-    "precache-manifest.5de52d6cf855b6a483613b7b8a308f01.js": "/hellodf2/precache-manifest.5de52d6cf855b6a483613b7b8a308f01.js",
+    "precache-manifest.339f43730ec4b8d749e38c4c86f873dc.js": "/hellodf2/precache-manifest.339f43730ec4b8d749e38c4c86f873dc.js",
     "service-worker.js": "/hellodf2/service-worker.js",
     "static/css/2.59df65bd.chunk.css.map": "/hellodf2/static/css/2.59df65bd.chunk.css.map",
-    "static/css/main.e2fc9554.chunk.css.map": "/hellodf2/static/css/main.e2fc9554.chunk.css.map",
-    "static/js/2.fb7bc9c2.chunk.js.LICENSE.txt": "/hellodf2/static/js/2.fb7bc9c2.chunk.js.LICENSE.txt",
+    "static/css/main.f92d654f.chunk.css.map": "/hellodf2/static/css/main.f92d654f.chunk.css.map",
+    "static/js/2.3bd9d40f.chunk.js.LICENSE.txt": "/hellodf2/static/js/2.3bd9d40f.chunk.js.LICENSE.txt",
     "static/media/HomePg.png": "/hellodf2/static/media/HomePg.d6161b97.png",
     "static/media/background.mp4": "/hellodf2/static/media/background.ec33a837.mp4",
     "static/media/primereact.min.css": "/hellodf2/static/media/color.c7a33805.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.7ebfb35a.js",
     "static/css/2.59df65bd.chunk.css",
-    "static/js/2.fb7bc9c2.chunk.js",
-    "static/css/main.e2fc9554.chunk.css",
-    "static/js/main.2539c792.chunk.js"
+    "static/js/2.3bd9d40f.chunk.js",
+    "static/css/main.f92d654f.chunk.css",
+    "static/js/main.83a06902.chunk.js"
   ]
 }
