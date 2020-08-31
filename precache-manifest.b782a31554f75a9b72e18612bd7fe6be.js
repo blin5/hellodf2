@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4f24b8a75842b908baa7515040654f3",
+    "revision": "665d911ec248898110ad13eee2c57266",
     "url": "/hellodf2/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hellodf2/static/css/2.59df65bd.chunk.css"
   },
   {
-    "revision": "04907bff86501c615783",
-    "url": "/hellodf2/static/css/main.51f320f6.chunk.css"
+    "revision": "f07db5ebe6ad1edf1f38",
+    "url": "/hellodf2/static/css/main.e2fc9554.chunk.css"
   },
   {
     "revision": "d99afa5d93ee942474fc",
@@ -20,12 +20,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hellodf2/static/js/2.fb7bc9c2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "04907bff86501c615783",
-    "url": "/hellodf2/static/js/main.ca5de672.chunk.js"
+    "revision": "f07db5ebe6ad1edf1f38",
+    "url": "/hellodf2/static/js/main.063ea003.chunk.js"
   },
   {
     "revision": "494de256463b906e27c2",
     "url": "/hellodf2/static/js/runtime-main.7ebfb35a.js"
+  },
+  {
+    "revision": "d6161b97fef676a467c6a53ba059312b",
+    "url": "/hellodf2/static/media/HomePg.d6161b97.png"
   },
   {
     "revision": "ec33a8375862c4b93241b7bb4aea4c7a",
@@ -50,9 +54,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "79432094e4838b36d974b9d8c57d22e2",
     "url": "/hellodf2/static/media/primeicons.79432094.woff"
-  },
-  {
-    "revision": "c6fc34ab10507b1a6879cbde0aeb0166",
-    "url": "/hellodf2/static/media/tonyPic.c6fc34ab.jpg"
   }
 ]);
