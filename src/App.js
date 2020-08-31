@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import tonyImage from './img/tonyPic.jpg';
+import HomePg from './img/HomePg.png';
 import backgroundVideo from './video_back/background.mp4';
 import { FileUpload } from 'primereact/fileupload';
 import { Card } from 'primereact/card';
@@ -60,7 +60,7 @@ function App() {
         >
         <source src={backgroundVideo} type="video/mp4" />
       </video>
-      <img src={tonyImage} alt="tony-effe" />
+      <img className="App-logo" src={HomePg} alt="HomePgPic" />
 
       <h1><WebcamCapture /></h1>
 
