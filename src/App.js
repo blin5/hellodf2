@@ -2,46 +2,24 @@ import React, { Component } from 'react';
 import HomePg from './img/HomePg.png';
 import backgroundVideo from './video_back/background.mp4';
 import { FileUpload } from 'primereact/fileupload';
-import { Card } from 'primereact/card';
 import { Button } from 'primereact/button';
 import './App.css';
 import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
-import Webcam from "react-webcam";
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import activateWebcam from './CamPage.js';
+import main from './Main.js';
 
-//const WebcamComponent = () => <Webcam />;
-const WebcamCapture = () => {
-  const webcamRef = React.useRef(null);
-  const [imgSrc, setImgSrc] = React.useState(null);
-
-  const capture = React.useCallback(() => {
-    const imageSrc = webcamRef.current.getScreenshot();
-    setImgSrc(imageSrc);
-  }, [webcamRef, setImgSrc]);
-
-  return (
-    <>
-      <Webcam
-        audio={false}
-        ref={webcamRef}
-        screenshotFormat="image/jpeg"
-        mirrored="false"
-      />
-      <h1><Button label="Capture photo" onClick={capture}/></h1>
-      <h1><FileUpload mode="basic" name="demo[]" url="./upload.php" accept="image/*" maxFileSize={1000000}  /></h1>
-      {imgSrc && (
-        <img
-          src={imgSrc}
-        />
-      )}
-      
-    </>
-  );
-};
 
 function App() {
   return (
+    <Router>
+      <Switch>
+      <Route path="/" exact component={main} />
+      <Route path="/hellodf2/" component={main} />
+      <Route path="/TakePhoto/" component={activateWebcam} />
+      </Switch>
     <div className="App">
       <video
         autoPlay
@@ -60,14 +38,17 @@ function App() {
         >
         <source src={backgroundVideo} type="video/mp4" />
       </video>
-      <img className="App-logo" src={HomePg} alt="HomePgPic" />
 
-      <h1><WebcamCapture className="App-logo" /></h1>
-
-      <div className="Card">
-      
-      </div>
     </div>
+    </Router>
+  );
+}
+
+function takePhoto() {
+  return (
+    <Router>
+        <Route path="/TakePhoto" component={activateWebcam} />
+    </Router>
   );
 }
 
