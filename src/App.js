@@ -28,7 +28,7 @@ const WebcamCapture = () => {
         screenshotFormat="image/jpeg"
         mirrored="false"
       />
-      <Button label="Capture photo" onClick={capture}/>
+      <h1><Button label="Capture photo" onClick={capture}/></h1>
       <h1><FileUpload mode="basic" name="demo[]" url="./upload.php" accept="image/*" maxFileSize={1000000}  /></h1>
       {imgSrc && (
         <img
@@ -62,7 +62,7 @@ function App() {
       </video>
       <img className="App-logo" src={HomePg} alt="HomePgPic" />
 
-      <h1><WebcamCapture /></h1>
+      <h1><WebcamCapture className="App-logo" /></h1>
 
       <div className="Card">
       
