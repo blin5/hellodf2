@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dde62e2ce85483f3a5a0a7201f2307e9",
+    "revision": "0916473dfb2dc3efda760dd1496e71a4",
     "url": "/hellodf2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hellodf2/static/css/2.59df65bd.chunk.css"
   },
   {
-    "revision": "90a5a088965a42ab3bcf",
+    "revision": "ffc00875c54b4ee99f43",
     "url": "/hellodf2/static/css/main.f92d654f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hellodf2/static/js/2.3bd9d40f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "90a5a088965a42ab3bcf",
-    "url": "/hellodf2/static/js/main.a2cb4642.chunk.js"
+    "revision": "ffc00875c54b4ee99f43",
+    "url": "/hellodf2/static/js/main.8d164319.chunk.js"
   },
   {
     "revision": "494de256463b906e27c2",
