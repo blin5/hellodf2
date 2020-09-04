@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21dd9b016917e1847bcb6360fcca887b",
+    "revision": "6731f3e6bee3a4a955f5124f164872de",
     "url": "/hellodf2/index.html"
   },
   {
-    "revision": "9e39275de355984183ac",
+    "revision": "ff59dee27258093f456c",
     "url": "/hellodf2/static/css/2.59df65bd.chunk.css"
   },
   {
-    "revision": "7a40824759cf18e13f76",
-    "url": "/hellodf2/static/css/main.2af277ea.chunk.css"
+    "revision": "28e055dc09c849181e8b",
+    "url": "/hellodf2/static/css/main.342598df.chunk.css"
   },
   {
-    "revision": "9e39275de355984183ac",
-    "url": "/hellodf2/static/js/2.3bd9d40f.chunk.js"
+    "revision": "ff59dee27258093f456c",
+    "url": "/hellodf2/static/js/2.6bcc25a6.chunk.js"
   },
   {
-    "revision": "c5b77a8dfc51bd7bd701c440e9afe1cb",
-    "url": "/hellodf2/static/js/2.3bd9d40f.chunk.js.LICENSE.txt"
+    "revision": "9d26004f40a9c0ff14d9825de71749e2",
+    "url": "/hellodf2/static/js/2.6bcc25a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a40824759cf18e13f76",
-    "url": "/hellodf2/static/js/main.7672ccd7.chunk.js"
+    "revision": "28e055dc09c849181e8b",
+    "url": "/hellodf2/static/js/main.3839aca2.chunk.js"
   },
   {
     "revision": "494de256463b906e27c2",
