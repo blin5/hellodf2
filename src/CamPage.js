@@ -39,6 +39,11 @@ const WebcamCapture = () => {
             src={imgSrc}
           />
         )}
+        {imgSrc && (
+          <img
+            src={imgSrc}
+          />
+        )}
         
       </>
     );
