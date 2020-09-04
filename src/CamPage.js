@@ -23,12 +23,18 @@ const WebcamCapture = () => {
   
     return (
       <>
-        <Webcam
+        <Webcam 
+          className="App-logo-little"
           audio={false}
           ref={webcamRef}
           screenshotFormat="image/jpeg"
           mirrored="false"
         />
+        {imgSrc && (
+          <img
+            src={imgSrc}
+          />
+        )}
         <h1><Button label="Capture photo" onClick={capture}/>
         <Link to="/" >
         <Button label="Back" />
