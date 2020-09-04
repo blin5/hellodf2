@@ -34,16 +34,20 @@ const WebcamCapture = () => {
         <Button label="Back" />
         </Link>
         </h1>
+        <h1>
         {imgSrc && (
           <img
             src={imgSrc}
           />
         )}
+        </h1>
+        <h1>
         {imgSrc && (
           <img
             src={imgSrc}
           />
         )}
+        </h1>
         
       </>
     );
