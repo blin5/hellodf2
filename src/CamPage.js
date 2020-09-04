@@ -24,7 +24,7 @@ const WebcamCapture = () => {
     return (
       <>
         <Webcam 
-          className="App-logo-little"
+          className="App-photo"
           audio={false}
           ref={webcamRef}
           screenshotFormat="image/jpeg"
