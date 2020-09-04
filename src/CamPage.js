@@ -11,6 +11,12 @@ import 'primeicons/primeicons.css';
 import Webcam from "react-webcam";
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import App from './App.js';
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
 
 const WebcamCapture = () => {
     const webcamRef = React.useRef(null);
