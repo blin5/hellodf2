@@ -8,8 +8,9 @@ import 'primereact/resources/themes/saga-blue/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import activateWebcam from './CamPage.js';
-import main from './Main.js';
+import activateWebcam from './pages/CamPage.js';
+import main from './pages/Main.js';
+import showphoto from './pages/ShowPhoto.js';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Route path="/" exact component={main} />
       <Route path="/hellodf2/" component={main} />
       <Route path="/TakePhoto/" component={activateWebcam} />
+      <Route path="/ShowPhoto/" component={showphoto} />
       </Switch>
     <div className="App">
       <video
