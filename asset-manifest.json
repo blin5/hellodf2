@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hellodf2/static/css/main.3683cad4.chunk.css",
+    "main.css": "/hellodf2/static/css/main.de58a6f6.chunk.css",
     "main.js": "/hellodf2/static/js/main.3839aca2.chunk.js",
     "main.js.map": "/hellodf2/static/js/main.3839aca2.chunk.js.map",
     "runtime-main.js": "/hellodf2/static/js/runtime-main.7ebfb35a.js",
@@ -9,10 +9,10 @@
     "static/js/2.6bcc25a6.chunk.js": "/hellodf2/static/js/2.6bcc25a6.chunk.js",
     "static/js/2.6bcc25a6.chunk.js.map": "/hellodf2/static/js/2.6bcc25a6.chunk.js.map",
     "index.html": "/hellodf2/index.html",
-    "precache-manifest.530e087d679dbf19c6e86820b24b9cb5.js": "/hellodf2/precache-manifest.530e087d679dbf19c6e86820b24b9cb5.js",
+    "precache-manifest.f05051ce21d8af145f037ec7a9cf1c65.js": "/hellodf2/precache-manifest.f05051ce21d8af145f037ec7a9cf1c65.js",
     "service-worker.js": "/hellodf2/service-worker.js",
     "static/css/2.59df65bd.chunk.css.map": "/hellodf2/static/css/2.59df65bd.chunk.css.map",
-    "static/css/main.3683cad4.chunk.css.map": "/hellodf2/static/css/main.3683cad4.chunk.css.map",
+    "static/css/main.de58a6f6.chunk.css.map": "/hellodf2/static/css/main.de58a6f6.chunk.css.map",
     "static/js/2.6bcc25a6.chunk.js.LICENSE.txt": "/hellodf2/static/js/2.6bcc25a6.chunk.js.LICENSE.txt",
     "static/media/HomePg.png": "/hellodf2/static/media/HomePg.d6161b97.png",
     "static/media/background.mp4": "/hellodf2/static/media/background.ec33a837.mp4",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.7ebfb35a.js",
     "static/css/2.59df65bd.chunk.css",
     "static/js/2.6bcc25a6.chunk.js",
-    "static/css/main.3683cad4.chunk.css",
+    "static/css/main.de58a6f6.chunk.css",
     "static/js/main.3839aca2.chunk.js"
   ]
 }
