@@ -30,9 +30,9 @@ const WebcamCapture = () => {
       const imageSrc = webcamRef.current.getScreenshot();
       setImgSrc(imageSrc);
       captured = true;
-    }, [webcamRef, setImgSrc]); //redirect to ShowImage component
+    }, [webcamRef, setImgSrc]);
     
-    if(captured){
+    if(captured){ //show capture preview
       captured = false;
       return(
       <>
@@ -52,8 +52,24 @@ const WebcamCapture = () => {
       );
     }
 
+    //console.log("+++ WEBCAMREF +++"+webcamRef.label)
+
+    if(webcamRef.label == null){
+      return(
+        <>
+      <Card title="This experience doesn't work without the webcam enabled!" style={{ opacity: '50%' }}>
+      </Card>
+        <Link to="/" >
+        < Button label="Back home" />
+        </Link>
+        </>
+    );
+    }
+
     return (
       <>
+      <div
+      className="App-photo">
         <Webcam 
           className="App-photo"
           audio={false}
@@ -61,6 +77,7 @@ const WebcamCapture = () => {
           screenshotFormat="image/jpeg"
           mirrored="false"
         />
+        </div>
           <Button label="Capture photo" onClick={capture}/>
           <Link to="/" >
             <Button label="Back home" />
