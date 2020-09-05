@@ -61,17 +61,10 @@ const WebcamCapture = () => {
           screenshotFormat="image/jpeg"
           mirrored="false"
         />
-        {imgSrc && (
-          <img
-            src={imgSrc}
-          />
-        )}
-        <h1>
           <Button label="Capture photo" onClick={capture}/>
           <Link to="/" >
             <Button label="Back home" />
           </Link>
-        </h1>
       </>
     );
   };
