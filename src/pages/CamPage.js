@@ -45,7 +45,9 @@ const WebcamCapture = () => {
           )}
       </div>
       <Button label="Submit" />
-      <Button label="Take again" onClick={activateWebcam}/>
+      <Link to="/TakePhoto/" >
+      <Button label="Take again"/>
+      </Link>
       </>
       );
     }
