@@ -54,7 +54,7 @@ const WebcamCapture = () => {
 
     //console.log("+++ WEBCAMREF +++"+webcamRef.label)
 
-    if(webcamRef.label == null){
+    /*if(webcamRef.label == null){
       return(
         <>
       <Card title="This experience doesn't work without the webcam enabled!" style={{ opacity: '50%' }}>
@@ -64,7 +64,7 @@ const WebcamCapture = () => {
         </Link>
         </>
     );
-    }
+    }*/
 
     return (
       <>
