@@ -33,7 +33,7 @@ const WebcamCapture = () => {
     }, [webcamRef, setImgSrc]); //redirect to ShowImage component
     
     if(captured){
-      //return <Redirect to='/ShowPhoto/' />;
+      captured = false;
       return(
       <>
       <div
@@ -44,6 +44,8 @@ const WebcamCapture = () => {
             />
           )}
       </div>
+      <Button label="Submit" />
+      <Button label="Take again" onClick={activateWebcam}/>
       </>
       );
     }
@@ -65,7 +67,7 @@ const WebcamCapture = () => {
         <h1>
           <Button label="Capture photo" onClick={capture}/>
           <Link to="/" >
-            <Button label="Back" />
+            <Button label="Back home" />
           </Link>
         </h1>
       </>
