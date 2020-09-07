@@ -1,0 +1,25 @@
+runtime: nodejs12
+env: flex
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 8
+  memory_gb: 16.0
+  disk_size_gb: 20
+readiness_check:
+  path: "/readiness_check"
+  check_interval_sec: 5
+  timeout_sec: 4
+  failure_threshold: 2
+  success_threshold: 2
+  app_start_timeout_sec: 300
+handlers:
+  # Serve all static files with url ending with a file extension
+  - url: /(.*\..+)$
+    static_files: build/\1
+    upload: build/(.*\..+)$
+  # Catch all handler to index.html
+  - url: /.*
+    static_files: build/index.html
+    upload: build/index.html

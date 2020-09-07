@@ -2,6 +2,7 @@
   "homepage": "http://blin5.github.io/hellodf2",
   "name": "hellodf2",
   "version": "0.1.0",
+  "proxy" : "http://localhost:5000",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",

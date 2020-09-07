@@ -46,16 +46,4 @@ function App() {
   );
 }
 
-function takePhoto() {
-  return (
-    <Router>
-        <Route path="/TakePhoto" component={activateWebcam} />
-    </Router>
-  );
-}
-
-function onUpload() {
-  this.toast.show({severity: 'info', summary: 'Success', detail: 'File Uploaded'});
-}
-
 export default App;
